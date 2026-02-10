@@ -39,17 +39,17 @@ QUOTES = []
 def load_data():
     global QUOTES
     try:
-        # Path relative to where we run uvicorn
-        # Check parent directory and current directory
-        paths = ["output/reddington_quotes.json", "../output/reddington_quotes.json"]
-        for p in paths:
-            if os.path.exists(p):
-                with open(p, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    QUOTES = data.get("quotes", [])
-                print(f"Loaded {len(QUOTES)} quotes from {p}")
-                return
-        print("WARNING: output/reddington_quotes.json not found!")
+        # Resolve path relative to this file's location for deployment compatibility
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        json_path = os.path.join(base_dir, "output", "reddington_quotes.json")
+        
+        if os.path.exists(json_path):
+            with open(json_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                QUOTES = data.get("quotes", [])
+            print(f"Loaded {len(QUOTES)} quotes from {json_path}")
+        else:
+            print(f"WARNING: Quote file not found at {json_path}")
     except Exception as e:
         print(f"Error loading data: {e}")
 
