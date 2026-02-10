@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.gemini/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Scraper cache
+cache/
+
+# Node
+web/node_modules/
+web/dist/
+
+# Output reports (keep JSON/CSV, ignore temp reports)
+output/enrichment_report.txt
+output/marathon_check.txt
+output/marathon_check_s09.txt

@@ -1,0 +1,1999 @@
+{
+  "metadata": {
+    "project": "ReddingtonOnceSaid",
+    "description": "Raymond 'Red' Reddington Quote Compendium — The Blacklist",
+    "total_quotes": 221,
+    "last_updated": "2026-02-10T16:51:04.472492"
+  },
+  "quotes": [
+    {
+      "quote": "What if I were to tell you that all the things you come to believe about yourself are a lie?",
+      "season": 1,
+      "episode": 2,
+      "episode_title": "The Freelancer",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "You lost her. I can’t find her. It’s that simple.",
+      "season": 1,
+      "episode": 4,
+      "episode_title": "The Stewmaker",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "Let me put your mind at ease.",
+      "season": 1,
+      "episode": 5,
+      "episode_title": "The Courier",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "I Can Only Lead You To The Truth.",
+      "season": 1,
+      "episode": 6,
+      "episode_title": "Gina Zanetakos",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I can only led you to the truth. I can’t make you believe it.",
+      "season": 1,
+      "episode": 6,
+      "episode_title": "Gina Zanetakos",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "A man who's willing to burn the world down to protect the one person they care about, that's a man I understand.",
+      "season": 1,
+      "episode": 7,
+      "episode_title": "Frederick Barnes",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Agent Keen, I have a tip. You're a winter, not an autumn. Stop wearing olive.",
+      "season": 1,
+      "episode": 7,
+      "episode_title": "Frederick Barnes",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Every cause has more than one effect.",
+      "season": 1,
+      "episode": 7,
+      "episode_title": "Frederick Barnes",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "I’m not a gumball machine, Lizzy. You don’t get to just twist the handle whenever you want a treat.",
+      "season": 1,
+      "episode": 7,
+      "episode_title": "Frederick Barnes",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "You know the problem with drawling lines in the sand? With a breath of air, they disappear.",
+      "season": 1,
+      "episode": 7,
+      "episode_title": "Frederick Barnes",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "I have no interest in cases that I have no interest in.",
+      "season": 1,
+      "episode": 8,
+      "episode_title": "General Ludd",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "You can’t judge a book by its cover. But you can by it’s first few chapters and certainly by its last.",
+      "season": 1,
+      "episode": 9,
+      "episode_title": "Anslo Garrick (1)",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "You talk too much.",
+      "season": 1,
+      "episode": 13,
+      "episode_title": "The Cyprus Agency",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "Once you cross over, there are things in the darkness that can keep your heart from feeling the light again.",
+      "season": 1,
+      "episode": 16,
+      "episode_title": "Mako Tanida",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "There is nothing that can take the pain away. But eventually, you will find a way to live with it.",
+      "season": 1,
+      "episode": 16,
+      "episode_title": "Mako Tanida",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "There is nothing that can take the pain away. But eventually, you will find a way to live with it. There will be nightmares, and every day, when you wake up, it will be the first thing you think about. Until one day, it will be the second thing.",
+      "season": 1,
+      "episode": 16,
+      "episode_title": "Mako Tanida",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "As bad as you think I am, as far as you think I'm willing to go to protect that which I hold dear, you can't possibly fathom how deep that well of mine truly goes.",
+      "season": 1,
+      "episode": 20,
+      "episode_title": "The Kingmaker",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "As bad as you think I am, as far as you think I’m willing to go to protect that which I hold dear...",
+      "season": 1,
+      "episode": 20,
+      "episode_title": "The Kingmaker",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "I was a lifeguard my junior year in high school. Had to give mouth-to-mouth to Mrs. Beerman. She belched up a lung full of corned beef and chlorine. I haven't been in a pool since.",
+      "season": 1,
+      "episode": 20,
+      "episode_title": "The Kingmaker",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Never underestimate the power of glitter.",
+      "season": 1,
+      "episode": 20,
+      "episode_title": "The Kingmaker",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "You Can't Possibly Fathom How Deep That Well Of Mine Truly Goes.",
+      "season": 1,
+      "episode": 20,
+      "episode_title": "The Kingmaker",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Please excuse the gun. I'd hate for them to think we were in cahoots.",
+      "season": 1,
+      "episode": 21,
+      "episode_title": "Berlin",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "What are they gonna do to me that hasn't been done before? Kill me? None of it is worse than losing you.",
+      "season": 1,
+      "episode": 21,
+      "episode_title": "Berlin",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Life is far too important a thing ever to talk seriously about.",
+      "season": 2,
+      "episode": 1,
+      "episode_title": "Lord Baltimore",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "God can’t protect you, but I can.",
+      "season": 2,
+      "episode": 2,
+      "episode_title": "Monarch Douglas Bank",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "Revenge Isn't A Passion; It's A Disease... Make sure your passion isn't your sickness.",
+      "season": 2,
+      "episode": 2,
+      "episode_title": "Monarch Douglas Bank",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Revenge isn’t a passion, it’s a disease that eats at your mind and poisons your soul.",
+      "season": 2,
+      "episode": 2,
+      "episode_title": "Monarch Douglas Bank",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "That's The Sound Of Your Checks Bouncing.",
+      "season": 2,
+      "episode": 2,
+      "episode_title": "Monarch Douglas Bank",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Value loyalty above all else.",
+      "season": 2,
+      "episode": 3,
+      "episode_title": "Dr. James Covington",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "As a rule, I consider jealousy to be a base emotion, but in this case, It’s quite endearing.",
+      "season": 2,
+      "episode": 5,
+      "episode_title": "The Front",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "That is what separates men like him from men like you...and me.",
+      "season": 2,
+      "episode": 6,
+      "episode_title": "The Mombasa Cartel",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "You see that Geoff, that is what a good man does. That is what separates men like him from men like you... and me.",
+      "season": 2,
+      "episode": 6,
+      "episode_title": "The Mombasa Cartel",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "When you love someone, you have no control. That’s what love is. Being powerless.",
+      "season": 2,
+      "episode": 8,
+      "episode_title": "The Decembrist",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "You will make a mistake and when you do, I will be there to indulge the undeniable pleasure and the sweet satisfaction of 'I told you so.",
+      "season": 2,
+      "episode": 9,
+      "episode_title": "Luther Braxton",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "In This World There Are No Sides.",
+      "season": 2,
+      "episode": 11,
+      "episode_title": "Ruslan Denisov",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "In this world, there are no sides. Only players.",
+      "season": 2,
+      "episode": 11,
+      "episode_title": "Ruslan Denisov",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "It’s a good to meet you. I’ve heard nothing but terrible things.",
+      "season": 2,
+      "episode": 11,
+      "episode_title": "Ruslan Denisov",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "I always found fear to be my most valuable sense.",
+      "season": 2,
+      "episode": 14,
+      "episode_title": "T. Earl King VI",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "Really, I’m all for being thorough, but at this point, you are just taking the nickel tour.",
+      "season": 2,
+      "episode": 14,
+      "episode_title": "T. Earl King VI",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "You have to make your choices; you have to be happy with them.",
+      "season": 3,
+      "episode": 2,
+      "episode_title": "Marvin Gerard",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "Is it just me or is the human race armed with religion, poisoned by prejudice, and absolutely frantic with hatred and fear, galloping pell-mell back to the Dark Ages? Who on Earth is hurt by a little girl going to school or a child being gay?",
+      "season": 3,
+      "episode": 4,
+      "episode_title": "The Djinn",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "Dead? Pishposh. What’s death? It’s just a process, right?",
+      "season": 3,
+      "episode": 6,
+      "episode_title": "Sir Crispin Crandall",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "The future is a sucker’s bet, a maybe, a contingency, a “What if?",
+      "season": 3,
+      "episode": 6,
+      "episode_title": "Sir Crispin Crandall",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "The only thing that is real is the present, and you’ve plundered it, robbed it of the very geniuses that might have averted the dystopia you so fear.",
+      "season": 3,
+      "episode": 6,
+      "episode_title": "Sir Crispin Crandall",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "You see, if you were a betting man, you would understand that now trumps later every time.",
+      "season": 3,
+      "episode": 6,
+      "episode_title": "Sir Crispin Crandall",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "See, This is why I don’t go to family reunions.",
+      "season": 3,
+      "episode": 8,
+      "episode_title": "Kings of the Highway",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "The promnestria will require a meeting of all family members to formalize the arrangement.",
+      "season": 3,
+      "episode": 13,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S03E13",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "People say youth is wasted on the young. I disagree. I believe wisdom is wasted on the old.",
+      "season": 3,
+      "episode": 15,
+      "episode_title": "Drexel",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Luftreiber Air? What secret of theirs is he keeping? A copy of a contract between an airline and the German government.",
+      "season": 3,
+      "episode": 16,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S03E16",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I'm afraid your wedding plans will have to wait, Lizzy.",
+      "season": 3,
+      "episode": 18,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S03E18",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I don’t know if I should be thrilled or terrified.",
+      "season": 3,
+      "episode": 22,
+      "episode_title": "Alexander Kirk",
+      "context": "",
+      "source_url": "https://thehabitstacker.com/raymond-reddington-quotes/",
+      "source_name": "HabitStacker"
+    },
+    {
+      "quote": "If you have the spare time, I would think you'd be spending it trying to learn about your parents.",
+      "season": 3,
+      "episode": 23,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S03E23",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Ah. So you are a gambling man. Let's place that bet, shall we? [Shoots him in the chest]",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "Are you a gambling man, Crispin?",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "But first, please indulge my curiosity. An ice castle in the air, the best and the brightest frozen solid. I'm intrigued.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "Congratulations, Crispin. You've doubled down on extinction.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "Everyone dies, Mr. Crandall.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "Indeed, perhaps even the very one who might have devised a means to revive your sad, tired, frozen ass.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "It won't work.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "Oh, yes. Well, I would agree with you there. But perhaps you're familiar with the old saw \"You can't beat the house\"? No matter how many poor souls you turn into popsicles, the fix is in.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "That's how you made your fortune.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "The world in which you awaken will be one incapable of sustaining human life. And why? Because at the critical tipping point, one tragically quixotic megalomaniac cannibalized humanity of the very minds that might have been its salvation.",
+      "season": 3,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "As you well know, one of the keys to my success is a clear and consistent understanding of my own limitations.",
+      "season": 4,
+      "episode": 1,
+      "episode_title": "Esteban",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "Wisdom is learning the boundaries of one's designated lane.",
+      "season": 4,
+      "episode": 1,
+      "episode_title": "Esteban",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I know where Elizabeth is, Harold, where Kirk is taking Agnes.",
+      "season": 4,
+      "episode": 2,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E02",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "This'll be quick, as I have no time and less patience.",
+      "season": 4,
+      "episode": 2,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E02",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "We have two targets-- Elizabeth Keen and Agnes Keen-- traveling separate paths to an unknown location.",
+      "season": 4,
+      "episode": 2,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E02",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "What did you do, Harold? I asked New Scotland Yard to keep eyes on McGrath.",
+      "season": 4,
+      "episode": 3,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E03",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "During World War II, the Oeuvre de Secours aux Enfants smuggled Jewish children out of France to Switzerland.",
+      "season": 4,
+      "episode": 5,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E05",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Maintenance tunnels here, here, and here give us access to the rendezvous point.",
+      "season": 4,
+      "episode": 6,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E06",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "When I turned myself in, I never imagined things could've turned out this badly.",
+      "season": 4,
+      "episode": 6,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E06",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "so Rory says, \"In Boston, a shot of whiskey and a pint of stout is an Irish Car Bomb.",
+      "season": 4,
+      "episode": 7,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E07",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "You've told me you've always wanted a pristine, unspoiled place to live out your days in peace.",
+      "season": 4,
+      "episode": 8,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E08",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I had bullets. He had words. But when he was done talking for the first time, I truly understood which of those was more powerful.",
+      "season": 4,
+      "episode": 10,
+      "episode_title": "The Forecaster",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "There's a man I know who works as a docent in a small museum - in the Northwest.",
+      "season": 4,
+      "episode": 14,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E14",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "The Apothecary can create embolisms, - aneurysms - [ Bites .]",
+      "season": 4,
+      "episode": 15,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E15",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Tell me, how's Tom? Liz: He's having a hard time, actually.",
+      "season": 4,
+      "episode": 18,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E18",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Donald, I want you to know that I do understand how you feel.",
+      "season": 4,
+      "episode": 21,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E21",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Let's give Prescott a call so you can hear for yourself.",
+      "season": 4,
+      "episode": 22,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E22",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Once Kaplan testifies, an indictment is inevitable.",
+      "season": 4,
+      "episode": 22,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E22",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Who was relying on the grand jury to separate us.",
+      "season": 4,
+      "episode": 22,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S04E22",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Losing someone we love is painful, agonising even on the death. The Japanese call it takotsubo, a grieving surge of abnormal electrical waves that causes the hearth to deflate and contort until it resembles a fishing port,hollow and cold, an empty vesell at the bottom of an unfathomable sea.",
+      "season": 4,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "You weren't willing to shoot an unarmed man in the back.",
+      "season": 5,
+      "episode": 1,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E01",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Please tell Paolo he's hosting a party tomorrow afternoon.",
+      "season": 5,
+      "episode": 2,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E02",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "What am I thinking? This is neither the time nor the place to talk business.",
+      "season": 5,
+      "episode": 2,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E02",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "A million reasons for you to have faith in my financial fortitude.",
+      "season": 5,
+      "episode": 3,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E03",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I think this is the first time you've made it a priority to see me, and I appreciate that.",
+      "season": 5,
+      "episode": 3,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E03",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Smokey, you were born a century too late.",
+      "season": 5,
+      "episode": 3,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E03",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "In horse breeding, genes are everything, and Fitzpleasure had the best ones.",
+      "season": 5,
+      "episode": 4,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E04",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Do you have a count? The mailman gave us two lists.",
+      "season": 5,
+      "episode": 5,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E05",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Elizabeth, whomever has filled the vacuum left by my downfall has to be stopped, or more innocent people will die.",
+      "season": 5,
+      "episode": 7,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E07",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "The world can be such an unsparingly savage place one can be forgiven for believing that evil will triumph in the end.",
+      "season": 5,
+      "episode": 7,
+      "episode_title": "The Kilgannon Corporation",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "You've always seen my relationship with Elizabeth as a zero-sum game.",
+      "season": 5,
+      "episode": 8,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E08",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "And who might you be? I'm not helping you.",
+      "season": 5,
+      "episode": 10,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E10",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Samar, any news? We caught the Blacklister.",
+      "season": 5,
+      "episode": 12,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E12",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "What makes her happy? Does she like a good foot massage? We should have stayed.",
+      "season": 5,
+      "episode": 12,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E12",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "With the evidence you obtained from his place of business, you can file charges against 27 clients who never went to trial.",
+      "season": 5,
+      "episode": 14,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E14",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "As Old Man Quimby, my fencing instructor used to say \"If ifs and buts were candy and nuts, oh, what a Christmas we'd have.",
+      "season": 5,
+      "episode": 15,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E15",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "It appears we're going to need that chinchilla after all.",
+      "season": 5,
+      "episode": 15,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E15",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Either Mosadek lost your tail and has no intention of being found, or he was taken by the very same people who abducted his son.",
+      "season": 5,
+      "episode": 18,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E18",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "After more than two decades on your Most Wanted List, I've become something of an FBI buff.",
+      "season": 5,
+      "episode": 19,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E19",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I promise Ian Garvey will not get away from me.",
+      "season": 5,
+      "episode": 19,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E19",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Then came a plaster mold of your face, a willing double, a little makeup, a little make-believe, and, voilÃ , two Garveys with one stone.",
+      "season": 5,
+      "episode": 19,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E19",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "While you were plotting with your minions from the Nash Syndicate, I was hatching a plan with my men to meet with you.",
+      "season": 5,
+      "episode": 19,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E19",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Harold, understand, Bernice is a seasoned professional.",
+      "season": 5,
+      "episode": 21,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S05E21",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "There's a fine line between fishing and standing on the shore looking like an idiot.",
+      "season": 5,
+      "episode": 22,
+      "episode_title": "Sutton Ross",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Through five marriages, numerous lovers, allegedly both male and female, and over 70 films, including \"North by Northwest,\" arguably the greatest work ever produced here, he just kept right on tripping, and why not? Before LSD was weighed down by the counter-cultural baggage of Timothy Leary turning on, tuning in, and dropping out LSD was used to treat addiction, anxiety, and depression.",
+      "season": 6,
+      "episode": 2,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E02",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "That acrid scent lingering in the air is bull feces, the stench of a man who's in prison for a crime he didn't commit but takes credit for because he's afraid of Anunzio Ross.",
+      "season": 6,
+      "episode": 4,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E04",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I'm sorry if you find the process of selecting a fair jury to be inconvenient, Mr.",
+      "season": 6,
+      "episode": 7,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E07",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Your Honor, I'd ask that this juror - be dismissed for cause.",
+      "season": 6,
+      "episode": 7,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E07",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "After you got the good doctor in custody, Dembe discovered that he'd sent an ampule of his toxic bug juice to Moreau in London.",
+      "season": 6,
+      "episode": 12,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E12",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "If there is a dossier, he's precisely the kind of intelligence officer who would compile it.",
+      "season": 6,
+      "episode": 12,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E12",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "It was, wasn't it? I was quite pleased with how it all came together.",
+      "season": 6,
+      "episode": 13,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E13",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Robert, I appreciate that your love of literature is almost as keen as mine, but why on Earth are we in the Library of Congress? Uh, you want to know how I decoded the myth and located my white whale? The answer is in the poem.",
+      "season": 6,
+      "episode": 13,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E13",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Walt Whitman lived in a boarding house at this address during the Civil War.",
+      "season": 6,
+      "episode": 13,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E13",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Recognize that? Your driver is relaxing in the footwell of my Mercedes with a gun barrel in his mouth.",
+      "season": 6,
+      "episode": 14,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E14",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "After pondering that for a moment, replies, \"It's too early to tell.",
+      "season": 6,
+      "episode": 19,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E19",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "Remember when classified documents were classified documents, Harold? Typewritten on onion skin, mimeographed, and stamped \"Top Secret\" just like in the spy movies? That was fun.",
+      "season": 6,
+      "episode": 21,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E21",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "See if the Third Estate pulled a permit to protest outside.",
+      "season": 6,
+      "episode": 21,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E21",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "They're being followed? COOPER: If you'd have let me know you had a location.",
+      "season": 6,
+      "episode": 21,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E21",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "The consulate is on alert, which means everyone's is.",
+      "season": 6,
+      "episode": 22,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S06E22",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "As pleasant as that sounds, I'm afraid I've made other arrangements.",
+      "season": 6,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "Winning always is.",
+      "season": 6,
+      "episode": null,
+      "episode_title": "",
+      "context": "Wikiquote dialogue",
+      "source_url": "https://en.wikiquote.org/wiki/The_Blacklist",
+      "source_name": "Wikiquote"
+    },
+    {
+      "quote": "To creep softly like a coward toward the treasures of your body, to whip your joyous flesh and bruise your pardoned breast, to make in your astonished flank a wide and gaping wound.",
+      "season": 7,
+      "episode": 3,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E03",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "You said The Peppermill didn't deliver the champagne? They said there were no reservations under Farwell or Campbell.",
+      "season": 7,
+      "episode": 3,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E03",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "The last thing I heard was men yelling in Farsi.",
+      "season": 7,
+      "episode": 4,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E04",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I don't see No, I-I understand there's traffic, Fudo.",
+      "season": 7,
+      "episode": 6,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E06",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I think dining in the dark probably does enhance the senses.",
+      "season": 7,
+      "episode": 9,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E09",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I understand that Sofia Burke made a run at the Dresden Green.",
+      "season": 7,
+      "episode": 9,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E09",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I wonder if a healthy finder's fee would make it your concern.",
+      "season": 7,
+      "episode": 9,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E09",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "We have very little time, but thanks to her hawaladar, we have a lead.",
+      "season": 7,
+      "episode": 9,
+      "episode_title": "",
+      "context": "Mined from transcript",
+      "source_url": "Transcript S07E09",
+      "source_name": "TranscriptMining"
+    },
+    {
+      "quote": "I have many thoughts that do often lie too deep for tears. At the moment, the main one being to put a bullet in your forehead.",
+      "season": 8,
+      "episode": 10,
+      "episode_title": "Dr. Laken Perillos",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I prefer to have my pain ignored than have no pain at all. Without pain there can be no real pleasure. Without the lows, you have no way to measure the highs.",
+      "season": 8,
+      "episode": 10,
+      "episode_title": "Dr. Laken Perillos",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Without pain there can be no real pleasure. Without the lows you have no way to measure the highs.",
+      "season": 8,
+      "episode": 10,
+      "episode_title": "Dr. Laken Perillos",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "We all have the devil in us, Harold. But the best of us have angels too.",
+      "season": 9,
+      "episode": 4,
+      "episode_title": "The Avenging Angel (No. 49)",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "I find LSD to be helpful in dark times and a blast in good times. Nothing loosens a tight sphincter like a good eight-hour acid trip.",
+      "season": 9,
+      "episode": 18,
+      "episode_title": "Laszlo Jankowics (No. 180)",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "If my circle of friends gets any smaller, it won't be a circle.",
+      "season": 10,
+      "episode": 4,
+      "episode_title": "The Hyena (No. 200)",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "There's No Such Thing As Luck. Just Well-Placed Opportunities.",
+      "season": 10,
+      "episode": 5,
+      "episode_title": "The Dockery Affair",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Time is the ultimate luxury, I think. To be savored, not hoarded nor compressed nor controlled.",
+      "season": 10,
+      "episode": 5,
+      "episode_title": "The Dockery Affair",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "You get older and you realize we make life so complicated when it doesn't need to be. We complicate ourselves to death.",
+      "season": 10,
+      "episode": 13,
+      "episode_title": "The Sicilian Error of Color",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Not every answer is worth knowing.",
+      "season": 10,
+      "episode": 14,
+      "episode_title": "The Nowhere Bride",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The best time to plant a tree is 20 years ago. The second best time is now. Luckily for you, I have three seedlings.",
+      "season": 10,
+      "episode": 15,
+      "episode_title": "The Hat Trick",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "A Wise man can learn more from a foolish question than a fool can learn from a wise answer",
+      "season": 2,
+      "episode": 9,
+      "episode_title": "Luther Braxton",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "A friend is a person who will help you move. A real friend is a person who will help you move a body.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Agent Park, I look forward to the day when you are as wise as you are aggressive. Until then I suggest you protect yourself from further embarrassment by saying nothing.",
+      "season": 8,
+      "episode": 17,
+      "episode_title": "Ivan Stepanov",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "As my father used to say to me, just because you’ve been bumped up to first chair in the orchestra, doesn’t mean you can compose a symphony.",
+      "season": 3,
+      "episode": 1,
+      "episode_title": "The Troll Farmer",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Be careful, Lizzie. Because the truth of it is once you start down this road, there’s no logical place to stop. You could see to her education, health insurance, housing. You can watch her. Or have her watched. Keep her safe. Try to ascertain her... hopes, dreams, desires. Pull strings, call in favors to discreetly smooth the path. And, for the first few years, it may work. You’ll draw some measure of virtue from being her invisible benefactor. But, that won’t last. It’s all a fraud. That it’s really not about her at all. That it’s all about you. And you’re just... going through the motions to salve your own guilt. But, all the money, all the time and effort, all the favors in the world cannot possibly equal what you took away from her. Everything else is... just a nice gesture.",
+      "season": 2,
+      "episode": 16,
+      "episode_title": "Tom Keen",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Betrayal is just loyalty reprioritized.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Beware the Fury of a patient man",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Every day it will be the first thing you think about when you wake up, until one day, it’ll be the second thing",
+      "season": 1,
+      "episode": 16,
+      "episode_title": "Mako Tanida",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Everybody likes apples.",
+      "season": 3,
+      "episode": 10,
+      "episode_title": "The Director: Conclusion",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Everyone on my jet is there because they chose to be. That cannot be said of most endeavors in life.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Flying is life. Falling is death.",
+      "season": 6,
+      "episode": 16,
+      "episode_title": "Lady Luck",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Forgiveness doesn’t mean accepting what you’ve done, Donald. It means understanding that the line dividing good and evil cuts through the hearts of all of us.",
+      "season": 5,
+      "episode": 10,
+      "episode_title": "The Informant",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Forgiveness is a luxury not everyone can afford.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Have I Threatened You Before?",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Hope is the worst of all evils because it prolongs the torment of man.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "I could tell you how to win a marathon, but you’re assuming it’s a 26.6-mile race.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "I finally had a chance to see her, Sam. There’s a fire inside she got from you. She’s volatile, unpredictable, soft, and hard, and... soft again. Stronger than she knows. You gave her an incredible gift, Sam. Taking her in and loving her as your own.",
+      "season": 1,
+      "episode": 8,
+      "episode_title": "General Ludd",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I have found in my experience people rarely change and when they do, they’re not to be trusted.",
+      "season": 4,
+      "episode": 20,
+      "episode_title": "The Debt Collector",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I met Dr. Sanders here through a mutual friend to discuss a very delicate and underfunded research project. As I recall, the science was awesome, but financially precarious. We did, however, spend a glorious weekend in God’s Country with two snow bunnies who were dead ringers for the Swiss Miss Girl.",
+      "season": 1,
+      "episode": 21,
+      "episode_title": "Berlin",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I was once on the island of Ko Ri, free diving in the Andaman Sea. I fell terribly ill, stung by a lionfish. I was dehydrated and in excruciating pain. I had lost all sense of time and place, completely disoriented. But I knew I was dying. So I readied myself for it. And in that moment at death’ door, I looked up... And standing over me in the brightness was this landless Moken Sea Gypsy. Just standing there. Smiling. She and her tribe nursed me back to health. Good as new. When I left the island, she kissed me, it was like a burst of sunlight on my cheek. It was... It made nearly dying welling worth it. That’s how I feel now.",
+      "season": 1,
+      "episode": 21,
+      "episode_title": "Berlin",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I've always found that true power comes from the ability to remain calm when the world around you is in chaos.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "I've made it my mission in life to identify, cultivate, and exploit the weakness in my enemies.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "If horses were wishes, beggars would ride.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "In the kingdom of the blind, the one-eyed man is king.",
+      "season": 2,
+      "episode": 22,
+      "episode_title": "Tom Connolly",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "In the short term, justice always loses to politics.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "In this world, loyalty is rare. That's why it's so valuable.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "In this world, power is everything. The rest is just an illusion.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "In this world, there are no heroes or villains. Only survivors.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Ineptitude bothers me. A lack of originality. Margarine. This and most everything else... Deck chairs on the Titanic.",
+      "season": 9,
+      "episode": 11,
+      "episode_title": "The Conglomerate (142)",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "It's just a part of life--watching the generation ahead of you, the people you care about, grow old... at some point, you start to... do the mental work necessary to prepare yourself for the inevitable. And yet, I'm afraid I stand here, Marvin, woefully unprepared.",
+      "season": 8,
+      "episode": 3,
+      "episode_title": "16 Ounces",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "I’m a contrarian by necessity, not by choice. If people were wrong less often, my life would be much easier.",
+      "season": 7,
+      "episode": 13,
+      "episode_title": "Newton Purcell",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Knowledge without action is meaningless.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Last night, I got up for a scoop of orange sherbet and she caught my eye. I just stood here in the dark squinting at her. Poor thing ruined my appetite. Even after I went back to bed, all I could hear was the hideous music she must be playing. Didn’t sleep a wink.",
+      "season": 1,
+      "episode": 14,
+      "episode_title": "Madeline Pratt",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Lies By Omission Are Still Lies, Harold. Some Would Argue They're The Worst Kind.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Life is a game, my dear. Play it to win, or don't play at all.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Life is all about perception. It's what you make of it that counts.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Loyalty is in the eye of the beholder.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Money can't buy happiness, but it can buy a damn good alibi.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "My God! It tastes so good! I hesitate to swallow and I certainly don’t wanna spit it out. Oh, what the hell?",
+      "season": 2,
+      "episode": 10,
+      "episode_title": "Luther Braxton: Conclusion",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Never trust a man who smiles too much. It's either a sign of charm or a sign of madness.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Nothing is so common as the wish to be remarkable.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "People Say Money Can't Buy Happiness, But It Can Buy You A Yacht Big Enough To Sail Right Up To It.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Power isn't something you're given. It's something you take.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Reciprocity’s a bitch, right, dahling? Screw the bear, the bear screws back. Batteries not included.",
+      "season": 3,
+      "episode": 2,
+      "episode_title": "Marvin Gerard",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Regret requires age or the passage of time. And believe me, time has a way of making all things clear.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "So, we’re all good at reading people. What fun!",
+      "season": 3,
+      "episode": 4,
+      "episode_title": "The Djinn",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Sometimes bad luck is the best luck you’ll ever have.",
+      "season": 3,
+      "episode": 3,
+      "episode_title": "Eli Matchett",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Sometimes the only way out is through.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Sometimes the only way to find yourself is to lose everything.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "That's what love is... being helpless.",
+      "season": 2,
+      "episode": 8,
+      "episode_title": "The Decembrist",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "The Past Is A Ghost That Never Truly Leaves Us.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "The cleaner suddenly fancies herself the strategist.",
+      "season": 4,
+      "episode": 1,
+      "episode_title": "Esteban",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "The greatest trick the devil ever pulled was convincing the world he didn't exist.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The greatest weapon is not a gun or a bomb. It's the truth.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The human condition is a series of choices. Some right, some wrong, but all ours to make.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The line between good and evil is often blurred. It's the choices we make that define us.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The measure of a man is not in how he gets knocked to the mat, it's in how he gets up.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The only way to truly know someone is to see how they handle power.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The past is a prison. It's up to us to break free.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The road to hell is paved with good intentions.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The thing about the truth is, not a lot of people can handle it.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The truth will set you free, but first, it will piss you off.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "The world is full of wolves and sheep. Be the wolf.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Then you’ll just have to find another criminal to talk to Elizabeth Keen and make fun of Agent Ressler.",
+      "season": 1,
+      "episode": 8,
+      "episode_title": "General Ludd",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "There are no shortcuts in life, only detours.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "There's Nothing That Can't Be Accomplished With A Little Ingenuity And A Lot Of Explosives.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "Bulk Ingest",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Trust no one. Not even yourself.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "Truth is such a rare thing, it is delightful to tell it.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "We're all puppets, Harold. Some of us just have more strings than others.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://multiple-sources",
+      "source_name": "WebResearch"
+    },
+    {
+      "quote": "What good are ethics if you aren’t alive to live by them?",
+      "season": 2,
+      "episode": 21,
+      "episode_title": "Karakurt",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "When I was young, I wanted to dance. I saw Gary Cooper dance on the screen, it was wonderful. Years later when I saw Gary, he looked old and grey. It turned out he had a cracked heart valve, very difficult to fix. He was on a waiting list to the end of his days. Just like Elias.",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "Yes. It’ll undoubtedly take some time. But I’m sure she’ll be fine. He’ll always be there with her. Standing in the shadows to keep her safe. Laughing with her in the light. Watching through her eyes, all those who get close. He’ll always be there. She will be fine.",
+      "season": 1,
+      "episode": 8,
+      "episode_title": "General Ludd",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "You and I both know thinking on your feet is not your strong suit Luther. You will make a mistake and when you do, I will be there to indulge in the undeniable pleasure and sweet satisfaction of 'I told you so.",
+      "season": 2,
+      "episode": 9,
+      "episode_title": "Luther Braxton",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "You look familiar... Have I threatened you before?",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "https://everydaypower.com/raymond-reddington-quotes/",
+      "source_name": "EverydayPower"
+    },
+    {
+      "quote": "You made a deal with the devil. Just because the devil gives you a way out, doesn’t mean he’s any less of a devil",
+      "season": null,
+      "episode": null,
+      "episode_title": "",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "You made a devil’s bargain. Did you really expect me to stop being the devil?",
+      "season": 10,
+      "episode": 20,
+      "episode_title": "Arthur Hudson",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "You seem younger in person than you appear to be when lurking in the background on television. Are you a swimmer?",
+      "season": 2,
+      "episode": 10,
+      "episode_title": "Luther Braxton: Conclusion",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "You two out here, playing grab ass in the woods just smacks of something biblical.",
+      "season": 2,
+      "episode": 5,
+      "episode_title": "The Front",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    },
+    {
+      "quote": "You’re already in their hands. The only thing they haven’t done is close their fist.",
+      "season": 2,
+      "episode": 22,
+      "episode_title": "Tom Connolly",
+      "context": "",
+      "source_url": "Manual Input",
+      "source_name": "ManualIngest"
+    }
+  ]
+}
