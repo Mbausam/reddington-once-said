@@ -41,13 +41,21 @@ def export_csv(quotes: list[dict], filepath: str) -> str:
     """
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
-    fieldnames = ["quote", "season", "episode", "episode_title", "context", "source_url", "source_name"]
+    fieldnames = [
+        "quote", "season", "episode", "episode_title", "context",
+        "source_url", "source_name",
+        "character_addressed", "themes", "quote_type", "iconic_rating",
+    ]
 
     with open(filepath, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         for q in quotes:
-            writer.writerow(q)
+            row = {k: q.get(k, "") for k in fieldnames}
+            # themes is a list — join to string for CSV
+            if isinstance(row.get("themes"), list):
+                row["themes"] = "; ".join(row["themes"])
+            writer.writerow(row)
 
     return os.path.abspath(filepath)
 
@@ -63,8 +71,14 @@ def generate_stats(quotes: list[dict]) -> dict:
         "quotes_with_season": sum(1 for q in quotes if q.get("season")),
         "quotes_with_episode": sum(1 for q in quotes if q.get("episode")),
         "quotes_with_context": sum(1 for q in quotes if q.get("context")),
+        "quotes_with_character": sum(1 for q in quotes if q.get("character_addressed")),
+        "quotes_with_themes": sum(1 for q in quotes if q.get("themes")),
+        "quotes_with_rating": sum(1 for q in quotes if q.get("iconic_rating")),
         "sources": {},
         "seasons": {},
+        "themes": {},
+        "character_addressed": {},
+        "quote_types": {},
     }
 
     # Count per source
@@ -78,6 +92,23 @@ def generate_stats(quotes: list[dict]) -> dict:
         if s:
             key = f"Season {s}"
             stats["seasons"][key] = stats["seasons"].get(key, 0) + 1
+
+    # Count themes (from enriched quotes)
+    for q in quotes:
+        for theme in (q.get("themes") or []):
+            stats["themes"][theme] = stats["themes"].get(theme, 0) + 1
+
+    # Count characters addressed
+    for q in quotes:
+        char = q.get("character_addressed")
+        if char and char != "unknown":
+            stats["character_addressed"][char] = stats["character_addressed"].get(char, 0) + 1
+
+    # Count quote types
+    for q in quotes:
+        qt = q.get("quote_type")
+        if qt:
+            stats["quote_types"][qt] = stats["quote_types"].get(qt, 0) + 1
 
     # Average quote length
     if quotes:
@@ -113,5 +144,20 @@ def print_stats(stats: dict):
         print("\n  📺 Quotes per season:")
         for season, count in sorted(stats["seasons"].items()):
             print(f"     {season:30s}  {count}")
+
+    if stats.get("themes"):
+        print("\n  🏷️  Top themes:")
+        for theme, count in sorted(stats["themes"].items(), key=lambda x: -x[1])[:10]:
+            print(f"     {theme:30s}  {count}")
+
+    if stats.get("character_addressed"):
+        print("\n  👤 Most addressed characters:")
+        for char, count in sorted(stats["character_addressed"].items(), key=lambda x: -x[1])[:8]:
+            print(f"     {char:30s}  {count}")
+
+    if stats.get("quote_types"):
+        print("\n  💬 Quote types:")
+        for qt, count in sorted(stats["quote_types"].items(), key=lambda x: -x[1]):
+            print(f"     {qt:30s}  {count}")
 
     print("=" * 60 + "\n")

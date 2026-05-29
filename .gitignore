@@ -42,3 +42,6 @@ web/dist/
 output/enrichment_report.txt
 output/marathon_check.txt
 output/marathon_check_s09.txt
+output/claude_checkpoint.json
+output/claude_quotes.json
+output/claude_quotes_filtered.json

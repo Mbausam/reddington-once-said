@@ -20,10 +20,10 @@
   --gold-glow-strong: rgba(201, 168, 76, 0.3);
 
   /* Text */
-  --text-primary: #f0ece2;
-  --text-secondary: rgba(240, 236, 226, 0.65);
-  --text-tertiary: rgba(240, 236, 226, 0.4);
-  --text-quote: #f5f1e8;
+  --text-primary: #f5f1e8;
+  --text-secondary: rgba(245, 241, 232, 0.82);
+  --text-tertiary: rgba(245, 241, 232, 0.60);
+  --text-quote: #faf7f0;
 
   /* Semantic */
   --red-accent: #c0392b;
@@ -227,10 +227,41 @@ p {
   50% { transform: translateY(-6px); }
 }
 
+@keyframes revealSection {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .fade-in-up {
   animation: fadeInUp var(--duration-slow) var(--ease-out) both;
 }
 
 .fade-in {
   animation: fadeIn var(--duration-normal) ease both;
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s var(--ease-out), transform 0.8s var(--ease-out);
+}
+
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Section Dividers ────────────────────────────────────────── */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+  opacity: 0.3;
+  max-width: 600px;
+  margin: 0 auto;
 }

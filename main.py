@@ -5,11 +5,13 @@ Runs all configured scrapers, merges and deduplicates results,
 and exports the final quote collection to JSON and CSV.
 
 Usage:
-    python main.py                    # Run all scrapers
-    python main.py --quotes-only      # Only curated quote pages (fast)
-    python main.py --transcripts-only # Only transcript scraping (slow)
-    python main.py --enrich           # Cross-reference quotes with transcripts
-    python main.py --enrich --enrich-seasons 1 2 3  # Enrich specific seasons
+    python main.py                     # Run all scrapers
+    python main.py --quotes-only       # Only curated quote pages (fast)
+    python main.py --transcripts-only  # Only transcript scraping (slow)
+    python main.py --enrich            # Cross-reference quotes with transcripts
+    python main.py --merge-claude      # Merge Claude-mined quotes into final output
+    python main.py --mine-claude       # Run Claude miner on cached transcripts
+    python main.py --ingest file.txt   # Ingest raw text file
 """
 
 import argparse
@@ -32,6 +34,7 @@ from utils.enricher import enrich_from_file
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
 JSON_OUTPUT = os.path.join(OUTPUT_DIR, "reddington_quotes.json")
 CSV_OUTPUT = os.path.join(OUTPUT_DIR, "reddington_quotes.csv")
+CLAUDE_QUOTES_FILE = os.path.join(OUTPUT_DIR, "claude_quotes.json")
 
 
 def load_existing_quotes(filepath: str) -> list[dict]:
@@ -174,6 +177,59 @@ def run_enrichment(seasons: list[int] | None = None):
     enrich_from_file(JSON_OUTPUT, seasons=seasons, download_first=True)
 
 
+def merge_claude_quotes():
+    """
+    Merge Claude-mined quotes with the existing curated collection.
+    Deduplicates, cleans, sorts, and exports the combined dataset.
+    """
+    print("\n" + "=" * 60)
+    print("  🎩 MERGING CLAUDE QUOTES")
+    print("=" * 60)
+
+    # Load existing curated quotes
+    existing = load_existing_quotes(JSON_OUTPUT)
+
+    # Load Claude quotes
+    claude_quotes = load_existing_quotes(CLAUDE_QUOTES_FILE)
+
+    if not claude_quotes:
+        print("  [!] No Claude quotes found. Run --mine-claude first.")
+        print(f"      Expected: {CLAUDE_QUOTES_FILE}")
+        return
+
+    # Merge
+    all_quotes = existing + claude_quotes
+    print(f"  🔀 Combined before dedup: {len(all_quotes)} quotes")
+    print(f"     Existing curated: {len(existing)}")
+    print(f"     Claude mined:     {len(claude_quotes)}")
+
+    # Clean, deduplicate, sort
+    all_quotes = clean_all(all_quotes)
+    all_quotes = deduplicate(all_quotes)
+    all_quotes = sort_quotes(all_quotes)
+
+    new_total = len(all_quotes)
+    added = new_total - len(existing)
+    print(f"  ✅ After dedup: {new_total} unique quotes ({added:+d})")
+
+    # Export
+    export_json(all_quotes, JSON_OUTPUT)
+    export_csv(all_quotes, CSV_OUTPUT)
+    print(f"  💾 Exported to {JSON_OUTPUT} and {CSV_OUTPUT}")
+
+    # Stats
+    stats = generate_stats(all_quotes)
+    print_stats(stats)
+
+    return all_quotes
+
+
+def run_claude_miner(seasons=None, model="deepseek-chat"):
+    """Run the transcript miner on cached transcripts."""
+    from scrapers.claude_miner import mine_transcripts
+    return mine_transcripts(seasons=seasons, model=model)
+
+
 def main():
     """CLI entry point with argument parsing."""
     parser = argparse.ArgumentParser(
@@ -188,6 +244,9 @@ def main():
             "  python main.py --transcripts-only             # Only transcripts\n"
             "  python main.py --mine                         # Mine local transcripts\n"
             "  python main.py --enrich                       # Enrich all seasons\n"
+            "  python main.py --merge-claude                 # Merge Claude quotes\n"
+            "  python main.py --mine-claude                  # Run Claude miner\n"
+            "  python main.py --mine-claude --seasons 1 2    # Mine specific seasons\n"
             "  python main.py --ingest my_quotes.txt         # Ingest raw text file\n"
         ),
     )
@@ -234,10 +293,44 @@ def main():
         type=str,
         help="Path to a text file containing raw quotes to ingest",
     )
+    parser.add_argument(
+        "--merge-claude",
+        action="store_true",
+        help="Merge Claude-mined quotes with the existing collection and export",
+    )
+    parser.add_argument(
+        "--mine-claude",
+        action="store_true",
+        help="Run Claude miner on all cached transcripts",
+    )
+    parser.add_argument(
+        "--claude-model",
+        default="deepseek-chat",
+        help="Model for --mine-claude (default: deepseek-chat)",
+    )
+    parser.add_argument(
+        "--seasons",
+        nargs="+",
+        type=int,
+        default=None,
+        help="Seasons to process (for --mine-claude). Default: all.",
+    )
 
     args = parser.parse_args()
 
     try:
+        # ── Claude miner mode ─────────────────────────────────
+        if args.mine_claude:
+            run_claude_miner(seasons=args.seasons, model=args.claude_model)
+            print("  🎉 Claude mining complete!\n")
+            return
+
+        # ── Claude merge mode ─────────────────────────────────
+        if args.merge_claude:
+            merge_claude_quotes()
+            print("  🎉 Claude merge complete!\n")
+            return
+
         # ── Enrichment mode ───────────────────────────────────
         if args.enrich:
             run_enrichment(seasons=args.enrich_seasons)

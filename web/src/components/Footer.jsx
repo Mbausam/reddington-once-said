@@ -17,19 +17,29 @@ export default function Footer() {
                     <span className="footer__logo">Reddington Once Said</span>
                     {stats && (
                         <p className="footer__stats">
-                            📚 {stats.total_quotes} verified quotes · {stats.total_seasons} seasons · The Blacklist
+                            📚 {stats.total_quotes.toLocaleString()} quotes · {stats.total_seasons} seasons · {Object.keys(stats.themes || {}).length} themes · The Blacklist
                         </p>
                     )}
-                    <a
-                        href="http://localhost:8000/docs"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="footer__api-link"
-                    >
-                        ⚡ API Docs (Swagger)
-                    </a>
+                    <div className="footer__links">
+                        <a
+                            href="/docs"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="footer__api-link"
+                        >
+                            ⚡ API Docs
+                        </a>
+                        <a
+                            href="https://github.com/Mbausam/reddington-once-said"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="footer__api-link"
+                        >
+                            ☆ GitHub
+                        </a>
+                    </div>
                     <p className="footer__credit">
-                        Built with ❤️ for fans of Raymond "Red" Reddington
+                        Built with passion for fans of Raymond "Red" Reddington
                     </p>
                 </div>
             </div>

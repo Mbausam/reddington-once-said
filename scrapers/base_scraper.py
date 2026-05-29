@@ -23,13 +23,18 @@ class BaseScraper:
 
     Quote schema:
     {
-        "quote": str,           # The actual quote text
-        "season": int | None,   # Season number if known
-        "episode": int | None,  # Episode number if known
-        "episode_title": str,   # Episode title if known
-        "context": str,         # Scene context / who he was talking to
-        "source_url": str,      # URL the quote was scraped from
-        "source_name": str,     # Human-readable source name
+        "quote": str,                  # The actual quote text
+        "season": int | None,          # Season number if known
+        "episode": int | None,         # Episode number if known
+        "episode_title": str,          # Episode title if known
+        "context": str,                # Scene context / who he was talking to
+        "source_url": str,             # URL the quote was scraped from
+        "source_name": str,            # Human-readable source name
+        # ── Enriched fields (added by Claude miner) ──
+        "character_addressed": str,    # Who Red is speaking to (Lizzie, Dembe, etc.)
+        "themes": list[str],           # e.g. ["loyalty", "power", "identity"]
+        "quote_type": str,             # "one-liner" | "monologue" | "parable" | "threat" | "wisdom"
+        "iconic_rating": int,          # 1-5 how memorable/quotable it is
     }
     """
 

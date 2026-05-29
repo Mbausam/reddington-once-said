@@ -7,6 +7,11 @@ const HERO_IMAGES = [
     '/images/reddington-3.png',
     '/images/reddington-4.png',
     '/images/reddington-5.png',
+    '/images/hero/reddington-6.svg',
+    '/images/hero/reddington-7.svg',
+    '/images/hero/reddington-8.svg',
+    '/images/hero/reddington-9.svg',
+    '/images/hero/reddington-10.svg',
 ];
 
 const CYCLE_INTERVAL = 6000; // 6 seconds per image

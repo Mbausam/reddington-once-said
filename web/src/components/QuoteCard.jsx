@@ -1,16 +1,23 @@
 import { useState, useRef } from 'react';
 
+const MAX_STARS = 5;
+
 export default function QuoteCard({ quote, index = 0 }) {
     const [copied, setCopied] = useState(false);
     const [speaking, setSpeaking] = useState(false);
     const utteranceRef = useRef(null);
 
+    const rating = quote.iconic_rating || 0;
+    const themes = quote.themes || [];
+    const character = quote.character_addressed;
+    const quoteType = quote.quote_type;
+
     const formatBadge = () => {
         const parts = [];
-        if (quote.season) parts.push(`S${quote.season}`);
-        if (quote.episode) parts.push(`E${quote.episode}`);
+        if (quote.season) parts.push(`S${String(quote.season).padStart(2, '0')}`);
+        if (quote.episode) parts.push(`E${String(quote.episode).padStart(2, '0')}`);
         if (quote.episode_title) parts.push(`· ${quote.episode_title}`);
-        return parts.join('') || 'The Blacklist';
+        return parts.join(' ') || 'The Blacklist';
     };
 
     const handleCopy = async () => {
@@ -37,18 +44,16 @@ export default function QuoteCard({ quote, index = 0 }) {
 
     const handleSpeak = () => {
         if (speaking) {
-            // Stop speaking
             window.speechSynthesis.cancel();
             setSpeaking(false);
             return;
         }
 
         const utterance = new SpeechSynthesisUtterance(quote.quote);
-        utterance.rate = 0.85; // Slower, more deliberate like Red
-        utterance.pitch = 0.85; // Slightly deeper
+        utterance.rate = 0.85;
+        utterance.pitch = 0.85;
         utterance.volume = 1;
 
-        // Try to find a deep male voice
         const voices = window.speechSynthesis.getVoices();
         const preferredVoices = voices.filter(
             (v) =>
@@ -62,7 +67,6 @@ export default function QuoteCard({ quote, index = 0 }) {
         if (preferredVoices.length > 0) {
             utterance.voice = preferredVoices[0];
         } else if (voices.length > 0) {
-            // Fallback: try to find any English voice
             const englishVoice = voices.find((v) => v.lang.startsWith('en'));
             if (englishVoice) utterance.voice = englishVoice;
         }
@@ -77,10 +81,48 @@ export default function QuoteCard({ quote, index = 0 }) {
 
     return (
         <div
-            className="quote-card"
+            className={`quote-card ${rating >= 5 ? 'quote-card--iconic' : ''}`}
             style={{ animationDelay: `${index * 80}ms` }}
         >
+            <div className="quote-card__meta-top">
+                {character && character.toLowerCase() !== 'unknown' && (
+                    <span className="quote-card__character">
+                        <span className="quote-card__character-dot" />
+                        To: {character}
+                    </span>
+                )}
+                {rating > 0 && (
+                    <span className="quote-card__stars" title={`Iconic rating: ${rating}/${MAX_STARS}`}>
+                        {Array.from({ length: MAX_STARS }, (_, i) => (
+                            <span key={i} className={`quote-card__star ${i < rating ? 'quote-card__star--filled' : ''}`}>
+                                ★
+                            </span>
+                        ))}
+                    </span>
+                )}
+            </div>
+
             <p className="quote-card__text">{quote.quote}</p>
+
+            {quote.context && (
+                <p className="quote-card__context">{quote.context}</p>
+            )}
+
+            <div className="quote-card__meta-bottom">
+                {themes.length > 0 && (
+                    <div className="quote-card__themes">
+                        {themes.slice(0, 3).map((t) => (
+                            <span key={t} className="quote-card__theme-badge">{t}</span>
+                        ))}
+                    </div>
+                )}
+                {quoteType && (
+                    <span className={`quote-card__type-badge quote-card__type-badge--${quoteType}`}>
+                        {quoteType}
+                    </span>
+                )}
+            </div>
+
             <div className="quote-card__footer">
                 <span className="quote-card__badge">🎬 {formatBadge()}</span>
                 <div className="quote-card__actions">
@@ -88,7 +130,6 @@ export default function QuoteCard({ quote, index = 0 }) {
                         className={`quote-card__action-btn ${speaking ? 'speaking' : ''}`}
                         onClick={handleSpeak}
                         title={speaking ? 'Stop reading' : 'Read aloud'}
-                        id={`speak-btn-${index}`}
                     >
                         {speaking ? '⏹️' : '🔊'}
                     </button>
@@ -96,7 +137,6 @@ export default function QuoteCard({ quote, index = 0 }) {
                         className={`quote-card__action-btn ${copied ? 'copied' : ''}`}
                         onClick={handleCopy}
                         title="Copy quote"
-                        id={`copy-btn-${index}`}
                     >
                         {copied ? '✓' : '📋'}
                     </button>
@@ -104,7 +144,6 @@ export default function QuoteCard({ quote, index = 0 }) {
                         className="quote-card__action-btn"
                         onClick={handleShare}
                         title="Share on X"
-                        id={`share-btn-${index}`}
                     >
                         𝕏
                     </button>
